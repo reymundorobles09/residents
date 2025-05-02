@@ -1,4 +1,4 @@
-import{r as i,u as h,P as b,C as x,a as z,c as v}from"./index-DVwsjgDa.js";var P={root:function(t){var e=t.props,r=t.horizontal,n=t.vertical;return v("p-divider p-component p-divider-".concat(e.layout," p-divider-").concat(e.type),{"p-divider-left":r&&(!e.align||e.align==="left"),"p-divider-right":r&&e.align==="right","p-divider-center":r&&e.align==="center"||n&&(!e.align||e.align==="center"),"p-divider-top":n&&e.align==="top","p-divider-bottom":n&&e.align==="bottom"},e.className)},content:"p-divider-content"},D=`
+import{r as i,u as h,P as b,C as x,a as z,c as v}from"./index-MgILqv3T.js";var P={root:function(t){var e=t.props,r=t.horizontal,n=t.vertical;return v("p-divider p-component p-divider-".concat(e.layout," p-divider-").concat(e.type),{"p-divider-left":r&&(!e.align||e.align==="left"),"p-divider-right":r&&e.align==="right","p-divider-center":r&&e.align==="center"||n&&(!e.align||e.align==="center"),"p-divider-top":n&&e.align==="top","p-divider-bottom":n&&e.align==="bottom"},e.className)},content:"p-divider-content"},D=`
 @layer primereact {
     .p-divider-horizontal {
         display: flex;

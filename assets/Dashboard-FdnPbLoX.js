@@ -1,4 +1,4 @@
-import{r as l,u as E,P as R,C as S,a as k,b as A,c as O,_ as F,D as I,p as L,m as W,w as M,d as U,e as V,f as H,g as T,h as J,j as e,i as Y}from"./index-DVwsjgDa.js";import{D as v}from"./divider.esm-BUTZeBoA.js";var C=S.extend({defaultProps:{__TYPE:"Chart",id:null,type:null,data:null,options:null,plugins:null,width:null,height:null,style:null,className:null,children:void 0},css:{classes:{root:"p-chart"},inlineStyles:{root:function(n){var o=n.props;return Object.assign({width:o.width,height:o.height},o.style)}},styles:`
+import{r as l,u as E,P as R,C as S,a as k,b as A,c as O,_ as F,D as I,p as L,m as W,w as M,d as U,e as V,f as H,g as T,h as J,j as e,i as Y}from"./index-MgILqv3T.js";import{D as v}from"./divider.esm-B5whGQy9.js";var C=S.extend({defaultProps:{__TYPE:"Chart",id:null,type:null,data:null,options:null,plugins:null,width:null,height:null,style:null,className:null,children:void 0},css:{classes:{root:"p-chart"},inlineStyles:{root:function(n){var o=n.props;return Object.assign({width:o.width,height:o.height},o.style)}},styles:`
         @layer primereact {
             .p-chart {
                 position: relative
