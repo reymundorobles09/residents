@@ -1,0 +1,276 @@
+
+ /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap'); */
+
+ /* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+ 
+:root{
+
+    --color-primary: #6366f1;
+    --color-secondary: #64748b;
+    --color-danger: #ef4444;
+    --color-success: #22c55e;
+    --color-warning: #F7D060;
+    --color-white: #fff;
+    --color-info-dark: #7d8da1;
+    --color-dark: #363949;
+    --color-light: rgba(132, 139, 200, 0.18);
+    --color-dark-variant: #677483;
+    --color-background: #EEEDEB;
+    --color-theme: #D8D2C2;
+    --color-natural: #EEEDEB;
+
+    --color-new: #0ea5e9;
+    --color-ongoing: #a855f7;
+    --color-completed: #22c55e;
+    --color-cancelled: #ef4444;
+    --color-closed: #64748b;
+
+    --card-border-radius: 2rem;
+    --border-radius-1: 0.4rem;
+    --border-radius-2: 1.2rem;
+
+    --card-padding: 1.8rem;
+    --padding-1: 1.2rem;
+
+    --box-shadow: 0 2rem 3rem var(--color-light);
+
+    text-decoration: none;
+
+    --surface-a: #ffffff;
+    --surface-b: #f8fafc;
+    --surface-c: #f1f5f9;
+    --surface-d: #e2e8f0;
+    --surface-e: #ffffff;
+    --surface-f: #ffffff;
+    --text-color: #1e293b;
+    --text-color-secondary: #64748b;
+    --primary-color: #6366f1;
+    --secondary-color: #98D8EF;
+    --primary-color-text: #ffffff;
+    --font-family: Poppins, sans-serif;
+    --surface-0: #ffffff;
+    --surface-50: #FAFAFA;
+    --surface-100: #F5F5F5;
+    --surface-200: #EEEEEE;
+    --surface-300: #E0E0E0;
+    --surface-400: #BDBDBD;
+    --surface-500: #9E9E9E;
+    --surface-600: #757575;
+    --surface-700: #616161;
+    --surface-800: #424242;
+    --surface-900: #212121;
+    --gray-50: #FAFAFA;
+    --gray-100: #F5F5F5;
+    --gray-200: #EEEEEE;
+    --gray-300: #E0E0E0;
+    --gray-400: #BDBDBD;
+    --gray-500: #9E9E9E;
+    --gray-600: #757575;
+    --gray-700: #616161;
+    --gray-800: #424242;
+    --gray-900: #212121;
+    --content-padding: 1.25rem;
+    --inline-spacing: 0.5rem;
+    --border-radius: 6px;
+    --surface-ground: #eff3f8;
+    --surface-section: #ffffff;
+    --surface-card: #ffffff;
+    --surface-overlay: #ffffff;
+    --surface-border: #dfe7ef;
+    --surface-hover: #f6f9fc;
+    --focus-ring: 0 0 0 0.2rem #c7d2fe;
+    --maskbg: rgba(0, 0, 0, 0.4);
+    color-scheme: light;
+    --transition-duration: 0.2s;
+
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: var(--font-family);
+  font-weight: normal;
+  background: var(--color-background);
+  color: var(--text-color);
+  padding: 0.5rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+.card {
+  background: var(--surface-card);
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  
+}
+
+.bg-theme{
+  background-color: var(--color-theme);
+}
+
+.bg-color{
+  background-color: var(--color-background) !important;
+}
+
+.fc-day-past{
+  background-color: #f3efefc8 !important;
+}
+
+.fc-day-today{
+  background-color: #cceeff !important;
+}
+
+.p-unselectable-text{
+  width: 50% !important;
+}
+
+.cartBtn{
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  background: #6366f1;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: var(--font-family);
+}
+
+.p-stepper-nav{
+  margin-left: 1rem !important;
+  margin-right: 1rem !important;
+}
+
+.p-inputnumber-input{
+  width: 100% !important;
+}
+
+.p-splitbutton-defaultbutton{
+  pointer-events: none !important;
+}
+
+.surface-border{
+  border-radius: 6px;
+  border: 0.5px solid #d1d5db !important;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
+
+input[type="file"]::file-selector-button {
+  background-color: #6366f1;
+  color: white;
+  border: none;
+  padding: 10px 8px;
+  border-radius: 5px 5px;
+  cursor: pointer;
+}
+
+.p-button.p-button-edit, .p-button-group.p-button-edit > .p-button, .p-splitbutton.p-button-edit > .p-button, .p-fileupload-choose.p-button-edit {
+  color: #ffffff;
+  background: #FFC145;
+  border: 1px solid #FFC145;
+}
+
+.p-button.p-button-payment, .p-button-group.p-button-payment > .p-button, .p-splitbutton.p-button-payment > .p-button, .p-fileupload-choose.p-button-payment {
+  color: #ffffff;
+  background: #F38C79;
+  border: 1px solid #F38C79;
+}
+
+.p-button.p-button-pending, .p-button-group.p-button-pending > .p-button, .p-splitbutton.p-button-pending > .p-button, .p-fileupload-choose.p-button-pending {
+  color: #ffffff;
+  background: #27445D;
+  border: 1px solid #27445D;
+}
+
+.content-layout{
+  border-radius: 12px !important;
+  background-image: radial-gradient(circle at left top, var(--color-primary), var(--color-primary)) !important;
+}
+
+.p-checkbox{
+  display: none !important;
+}
+
+.p-accordion-header-text{
+  margin-left: 9px;
+}
+
+.p-dialog.p-confirm-dialog .p-confirm-dialog-message {
+  margin: 0 auto !important;
+  width: 100% !important;
+}
+
+.p-confirm-dialog-message{
+  padding: 10px;
+}
+
+.p-tag.p-tag-payment {
+  background-color: #F38C79;
+  color: #ffffff;
+}
+
+.p-tag.p-tag-pending {
+  background-color: #CBA35C;
+  color: #ffffff;
+}
+
+.p-tag.p-tag-help {
+  background-color: #A855F7;
+  color: #ffffff;
+}
+
+.p-tag.p-tag-closed {
+  background-color: var(--gray-600);
+  color: #ffffff;
+}
+
+.sidebar-link{
+  padding: 1.25rem;
+  border: 1px solid #e5e7eb;
+  color: #6b7280;
+  background: #f9fafb;
+  border-radius: 6px;
+  transition: box-shadow 0.2s;
+}
+
+.payment-card{
+  color: #6b7280;
+  background: #f9fafb;
+  border-radius: 6px;
+}
+
+.links{
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.text-danger{
+  color: var(--color-danger);
+}
+
+.amount{
+  color: var(--gray-600);
+}
+
+.swal-text{
+  text-align: center !important;
+}
+
+.cards{
+    background: var(--surface-card);
+    box-shadow: var(--card-shadow);
+    border-radius: 12px;
+    color: var(--color-dark);
+}
+
+element.style {
+  box-sizing: border-box;
+  display: block;
+  width: 700px !important;
+  height: 499px;
+}
